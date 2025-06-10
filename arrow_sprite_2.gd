@@ -7,9 +7,9 @@ func _ready():
 	rotation = 0
 
 func _process(delta):
-	if Input.is_action_pressed("J01_ui_mira_baixo"):
+	if Input.is_action_pressed("J02_ui_mira_baixo"):
 		current_rotation_direction = 1
-	elif Input.is_action_pressed("J01_ui_mira_cima"):
+	elif Input.is_action_pressed("J02_ui_mira_cima"):
 		current_rotation_direction = -1
 	else:
 		current_rotation_direction = 0
