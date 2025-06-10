@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+.godot/
+export/
+*.pck
+*.zip
+*.tps
+*.import
+tmp/
+build/
+release/
+debug/
+# Godot 4 specific:
+.godot/
+.mono/
+# For C# projects:
+.vs/
+bin/
+obj/

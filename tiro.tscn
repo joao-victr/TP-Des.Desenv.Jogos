@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqklqfvcqq1ho"]
+
+[ext_resource type="Texture2D" uid="uid://4q7ffmv4xdav" path="res://tiro.png" id="1_rivwi"]
+
+[sub_resource type="GDScript" id="GDScript_rivwi"]
+script/source = "extends RigidBody2D
+
+@export var raio: float = 1  # raio de destruição em tiles ao redor
+@export var direction: Vector2 = Vector2(1, 0)
+@onready var explosao_scene = preload(\"res://explosion.tscn\")
+var forca: float = 0 #recebe a força da instancia do tiro em armas
+
+var tilemap_node: TileMapLayer
+
+
+func _ready():
+	linear_velocity = direction * forca
+	#apply_central_force(direction * forca )
+	var raiz = get_tree().current_scene
+	if raiz.has_node(\"Tiles_e_reliquias/Tile_tech\"):
+		tilemap_node = raiz.get_node(\"Tiles_e_reliquias/Tile_tech\")
+
+func _physics_process(delta):
+	
+	var cell_pos: Vector2i = tilemap_node.local_to_map(global_position)
+	if tilemap_node.get_cell_source_id(cell_pos) != -1:
+		destruir_em_raio(cell_pos)
+		var explosao = explosao_scene.instantiate()
+		explosao.global_position = global_position
+		get_tree().current_scene.add_child(explosao)
+		print(\"posicao explosao:\", explosao.global_position)
+		print(\"posição do centro do tile\", cell_pos)
+		queue_free()
+
+func destruir_em_raio(center_pos: Vector2i):
+	for x_offset in range(-raio, raio + 1):
+		for y_offset in range(-raio, raio + 1):
+			var distancia = sqrt(x_offset * x_offset + y_offset * y_offset)
+			if distancia <= float(raio):
+				var pos = center_pos + Vector2i(x_offset, y_offset)
+				if tilemap_node.get_cell_source_id(pos) != -1:
+					tilemap_node.set_cell(pos, -1)
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gp2hl"]
+radius = 8.0
+
+[node name="Projetil" type="RigidBody2D"]
+position = Vector2(40, -35)
+mass = 0.05
+script = SubResource("GDScript_rivwi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rivwi")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gp2hl")

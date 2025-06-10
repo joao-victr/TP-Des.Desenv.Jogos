@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://q6lydpwlcxyf"]
+
+[ext_resource type="Texture2D" uid="uid://dci4frrujv8uf" path="res://teste_bars_att.png" id="1_qe6sc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwwpu"]
+atlas = ExtResource("1_qe6sc")
+region = Rect2(0, 168, 135, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rc423"]
+atlas = ExtResource("1_qe6sc")
+region = Rect2(0, 126, 135, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgcor"]
+atlas = ExtResource("1_qe6sc")
+region = Rect2(0, 84, 135, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kw8sh"]
+atlas = ExtResource("1_qe6sc")
+region = Rect2(0, 42, 135, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdq50"]
+atlas = ExtResource("1_qe6sc")
+region = Rect2(0, 0, 135, 42)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_38h6w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwwpu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rc423")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dgcor")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kw8sh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdq50")
+}],
+"loop": false,
+"name": &"power_gauge",
+"speed": 3.0
+}]
+
+[node name="gauge" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-34, -6)
+scale = Vector2(0.598148, 0.619048)
+sprite_frames = SubResource("SpriteFrames_38h6w")
+animation = &"power_gauge"

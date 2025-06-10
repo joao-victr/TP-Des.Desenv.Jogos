@@ -1,0 +1,581 @@
+[gd_scene load_steps=50 format=4 uid="uid://ctug6agwl6viy"]
+
+[ext_resource type="Texture2D" uid="uid://dd6cbiwdvvsaa" path="res://1-Idle/1.png" id="1_331ug"]
+[ext_resource type="Texture2D" uid="uid://ck1grc2t5qyjh" path="res://fundo.png" id="1_ny14h"]
+[ext_resource type="Texture2D" uid="uid://com0jdfa5vce5" path="res://1-Idle/2.png" id="2_ny14h"]
+[ext_resource type="Texture2D" uid="uid://81dhbva0cbxe" path="res://1-Idle/3.png" id="3_ibah8"]
+[ext_resource type="Texture2D" uid="uid://d0270ams2e7g5" path="res://1-Idle/4.png" id="4_3iwfv"]
+[ext_resource type="Texture2D" uid="uid://dxlggswqb3421" path="res://1-Idle/5.png" id="5_qwsg1"]
+[ext_resource type="Texture2D" uid="uid://dtud6d4yy2td" path="res://1-Idle/6.png" id="6_1xqrm"]
+[ext_resource type="Texture2D" uid="uid://bkry5ioangj5p" path="res://1-Idle/7.png" id="7_bfour"]
+[ext_resource type="Texture2D" uid="uid://65brey23umen" path="res://1-Idle/8.png" id="8_8gr2b"]
+[ext_resource type="Texture2D" uid="uid://btrm8pv4oorlh" path="res://1-Idle/9.png" id="9_vl8ci"]
+[ext_resource type="Texture2D" uid="uid://ci84tud32ffe8" path="res://1-Idle/10.png" id="10_ieltc"]
+[ext_resource type="Texture2D" uid="uid://b7fljto3frnjw" path="res://1-Idle/11.png" id="11_fddr8"]
+[ext_resource type="Texture2D" uid="uid://l0xj6edxy2we" path="res://1-Idle/12.png" id="12_oybyf"]
+[ext_resource type="Texture2D" uid="uid://1ig540il8vvl" path="res://1-Idle/13.png" id="13_ajfva"]
+[ext_resource type="Texture2D" uid="uid://db23fex5g5ygn" path="res://1-Idle/14.png" id="14_5ef02"]
+[ext_resource type="Texture2D" uid="uid://dfm42qqqbwtyo" path="res://1-Idle/15.png" id="15_pfmca"]
+[ext_resource type="Texture2D" uid="uid://cpysup1hs4vpo" path="res://1-Idle/16.png" id="16_76oay"]
+[ext_resource type="Texture2D" uid="uid://dpk3b63a1ols6" path="res://1-Idle/17.png" id="17_b4uyv"]
+[ext_resource type="Texture2D" uid="uid://bk35pqvvmt2lw" path="res://1-Idle/18.png" id="18_tw8ou"]
+[ext_resource type="Texture2D" uid="uid://bjr21163gr7od" path="res://1-Idle/19.png" id="19_ygbnx"]
+[ext_resource type="Texture2D" uid="uid://ett7eigulbqp" path="res://1-Idle/20.png" id="20_v2t6f"]
+[ext_resource type="Texture2D" uid="uid://wlkgbhjmk04m" path="res://1-Idle/21.png" id="21_l3lcn"]
+[ext_resource type="Texture2D" uid="uid://jr2fqgvf034r" path="res://1-Idle/22.png" id="22_xry5e"]
+[ext_resource type="Texture2D" uid="uid://cbdfvgu6jnhhg" path="res://1-Idle/23.png" id="23_h6w8y"]
+[ext_resource type="Texture2D" uid="uid://bx1tbufc8au8d" path="res://1-Idle/24.png" id="24_yem3p"]
+[ext_resource type="Texture2D" uid="uid://d3cvi1stqo7go" path="res://1-Idle/25.png" id="25_86rna"]
+[ext_resource type="Texture2D" uid="uid://bv3cnkanb8kmo" path="res://1-Idle/26.png" id="26_xg1a7"]
+[ext_resource type="Texture2D" uid="uid://b8hx7p72ivg18" path="res://2-Run/1.png" id="27_ob4mi"]
+[ext_resource type="Texture2D" uid="uid://dyrgsxx0wxuau" path="res://2-Run/2.png" id="28_ax26h"]
+[ext_resource type="Texture2D" uid="uid://upm7op48ej7c" path="res://2-Run/3.png" id="29_kh4g0"]
+[ext_resource type="Texture2D" uid="uid://dlkk838hspojy" path="res://2-Run/4.png" id="30_mgmjd"]
+[ext_resource type="Texture2D" uid="uid://cgf4hjyg5leum" path="res://2-Run/5.png" id="31_va2xi"]
+[ext_resource type="Texture2D" uid="uid://mcj6kdikn5t0" path="res://2-Run/6.png" id="32_fkf2u"]
+[ext_resource type="Texture2D" uid="uid://c4m6l80ma80l" path="res://2-Run/7.png" id="33_s7jk6"]
+[ext_resource type="Texture2D" uid="uid://b7y4dlula5mt5" path="res://2-Run/8.png" id="34_feeoa"]
+[ext_resource type="Texture2D" uid="uid://cg13mto3tynf3" path="res://2-Run/9.png" id="35_m6nxt"]
+[ext_resource type="Texture2D" uid="uid://trfyuj3nltvj" path="res://2-Run/10.png" id="36_ym00c"]
+[ext_resource type="Texture2D" uid="uid://cbbtvhiwwst1u" path="res://2-Run/11.png" id="37_ee2o4"]
+[ext_resource type="Texture2D" uid="uid://d407jl6k5unm" path="res://2-Run/12.png" id="38_vie4p"]
+[ext_resource type="Texture2D" uid="uid://sl88t18c3krt" path="res://2-Run/13.png" id="39_0jj5r"]
+[ext_resource type="Texture2D" uid="uid://dil5c0m7tkn7t" path="res://2-Run/14.png" id="40_77e46"]
+[ext_resource type="Texture2D" uid="uid://p0rdgu653hx1" path="res://Tilesets/Terrain (16x16).png" id="42_ibah8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ibah8"]
+size = Vector2(1148, 119)
+
+[sub_resource type="GDScript" id="GDScript_ny14h"]
+script/source = "extends CharacterBody2D
+
+
+const SPEED = 300.0
+const JUMP_VELOCITY = -500.0
+@onready var  anim_walk := $AnimatedSprite2D 
+
+
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction := Input.get_axis(\"ui_left\", \"ui_right\")
+	if direction:
+		velocity.x = direction * SPEED
+		
+		if anim_walk.animation != \"Walk\":
+			anim_walk.play(\"Walk\")
+		
+		anim_walk.flip_h = direction < 0
+			
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		
+		if anim_walk.animation != \"Idle\":
+			anim_walk.play(\"Idle\")
+
+	move_and_slide()
+"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_04cqw"]
+radius = 14.0
+height = 48.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cy2ki"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_331ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ny14h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ibah8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_3iwfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qwsg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1xqrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bfour")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8gr2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vl8ci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ieltc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fddr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_oybyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ajfva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5ef02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_pfmca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_76oay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b4uyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tw8ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ygbnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_v2t6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_l3lcn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_xry5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_h6w8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yem3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_86rna")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_xg1a7")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_ob4mi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ax26h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kh4g0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_mgmjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_va2xi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_fkf2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_s7jk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_feeoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_m6nxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ym00c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ee2o4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vie4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_0jj5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_77e46")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 15.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_ibah8"]
+resource_name = "Controle de armas"
+script/source = "extends Sprite2D
+
+
+@onready var arma_sprite := $\".\"
+@onready var personagem = get_parent()  # Referência ao CharacterBody2D (personagem)
+var gauge_scene = preload(\"res://gauge.tscn\")
+var anim_gauge
+
+
+var arma_offset = Vector2(20, 0)  # Deslocamento inicial da arma
+var ultima_direcao = 1  # 1 = direita, -1 = esquerda
+var ProjetilScene = preload(\"res://tiro.tscn\")
+@export var max_forca := 1.5
+var carregando_forca = false
+var forca := 0.0
+
+
+var armas = {
+	\"pistola\": preload(\"res://armas/pistola.png\"),
+	\"kar\": preload(\"res://armas/kar.png\"),
+	\"awm\" : preload(\"res://armas/awm.png\")
+}
+
+var arma_atual = null
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	visible = false  # Começa sem arma
+	atualizar_posicao()
+	var gauge_node = gauge_scene.instantiate()
+	add_child(gauge_node)
+	anim_gauge = gauge_node.get_node(\"AnimatedSprite2D\")
+	anim_gauge.position = Vector2(-20,40)
+	anim_gauge.visible = false
+	
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+		
+	if Input.is_action_just_pressed(\"ui_pistola\"):
+		equipar_arma(\"pistola\")
+	elif Input.is_action_just_pressed(\"ui_kar\"):
+		equipar_arma(\"kar\")
+	elif Input.is_action_just_pressed(\"ui_awm\"):
+		equipar_arma(\"awm\")
+	elif Input.is_action_just_pressed(\"ui_soltar\"):
+		soltar_arma()
+	
+	atualizar_posicao() # Atualiza a posição da arma no processo (para que a arma sempre siga o personagem)
+	
+	if Input.is_action_just_pressed(\"atirar\"):
+		print(\"atirou\")
+		carregando_forca = true
+		forca = 0.0
+		anim_gauge.visible = true
+		anim_gauge.play()  # Chama play só quando começa a carregar!
+		
+	if carregando_forca and Input.is_action_pressed(\"atirar\"):
+		forca += delta
+		forca = clamp(forca, 0.0, max_forca)
+
+		# Se chegou no frame 5, para a animação para manter o frame travado
+	if anim_gauge.frame >= 5:
+		anim_gauge.frame = 5
+		anim_gauge.stop()
+
+	if carregando_forca and Input.is_action_just_released(\"atirar\"):
+		disparar()
+		carregando_forca = false
+		anim_gauge.visible = false
+		anim_gauge.stop()
+		
+	
+func equipar_arma(nome: String):
+	if nome in armas:
+		texture = armas[nome]
+		visible = true
+		arma_atual = nome
+		print(\"Arma equipada:\", nome, \" | Textura:\", texture)
+
+func soltar_arma():
+	texture = null
+	visible = false
+	arma_atual = null
+	print(\"Arma solta\")
+
+func atualizar_posicao():
+	var direcao = 0
+	if personagem.velocity.x < 0:
+		direcao = -1
+	elif personagem.velocity.x > 0:
+		direcao = 1
+	else:
+		direcao = ultima_direcao
+	
+	ultima_direcao = direcao
+	
+	#abaixo, atualiza a posição do gauge para nao inverter junto da arma e se manter emabixo personagem
+	#obs: como anim_gauge é um no filho de arma, ela inverte junto com o no pai, por isso tem que ajustar
+	if flip_h:
+		anim_gauge.position.x = 20  # o oposto de -20
+	else:
+		anim_gauge.position.x = -20
+	
+	
+	# Ajuste do flip e do offset com base na arma atual
+	match arma_atual:
+		\"pistola\":
+			arma_offset.x = 30 * direcao
+		\"kar\":
+			arma_offset.x = 20 * direcao
+		\"awm\":
+			arma_offset.x = 20 * direcao
+		_:
+			arma_offset.x = 20 * direcao  # Padrão
+
+	flip_h = direcao == -1
+	arma_offset.y = 15
+	global_position = personagem.global_position + arma_offset
+
+	
+	
+func disparar():
+	if arma_atual == null:
+		return
+	carregando_forca = false
+	print(\"Forca final: \", forca)
+	var novo_projetil = ProjetilScene.instantiate()
+	novo_projetil.global_position = global_position
+	novo_projetil.direcao = ultima_direcao
+	novo_projetil.forca = forca
+	get_tree().current_scene.add_child(novo_projetil)
+	print(novo_projetil.position.x)
+
+			
+		
+		
+"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iwfv"]
+texture = ExtResource("42_ibah8")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+8:0/0 = 0
+8:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:0/0 = 0
+10:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+13:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+14:1/0 = 0
+14:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+13:2/0 = 0
+13:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+14:2/0 = 0
+14:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+17:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+17:4/0/physics_layer_0/polygon_0/one_way = true
+18:4/0 = 0
+18:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+18:4/0/physics_layer_0/polygon_0/one_way = true
+19:4/0 = 0
+19:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+19:4/0/physics_layer_0/polygon_0/one_way = true
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+17:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+17:5/0/physics_layer_0/polygon_0/one_way = true
+18:5/0 = 0
+18:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+18:5/0/physics_layer_0/polygon_0/one_way = true
+19:5/0 = 0
+19:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+19:5/0/physics_layer_0/polygon_0/one_way = true
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+17:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+17:6/0/physics_layer_0/polygon_0/one_way = true
+18:6/0 = 0
+18:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+18:6/0/physics_layer_0/polygon_0/one_way = true
+19:6/0 = 0
+19:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+19:6/0/physics_layer_0/polygon_0/one_way = true
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:1/0 = 0
+8:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:2/0 = 0
+8:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_qwsg1"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_3iwfv")
+
+[node name="CenaTeste" type="Node2D"]
+
+[node name="CHAO" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CHAO"]
+position = Vector2(577, 588.5)
+shape = SubResource("RectangleShape2D_ibah8")
+
+[node name="Sprite2D" type="Sprite2D" parent="CHAO"]
+position = Vector2(575.25, 323.75)
+scale = Vector2(1.08294, 1.12653)
+texture = ExtResource("1_ny14h")
+
+[node name="JOGADOR" type="CharacterBody2D" parent="."]
+position = Vector2(67, 491)
+script = SubResource("GDScript_ny14h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="JOGADOR"]
+position = Vector2(4, 4)
+shape = SubResource("CapsuleShape2D_04cqw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="JOGADOR"]
+sprite_frames = SubResource("SpriteFrames_cy2ki")
+animation = &"Idle"
+frame = 4
+frame_progress = 0.675753
+
+[node name="Armas" type="Sprite2D" parent="JOGADOR"]
+script = SubResource("GDScript_ibah8")
+
+[node name="TileMap" type="TileMapLayer" parent="." groups=["paredes"]]
+tile_map_data = PackedByteArray("AABGAB8AAAANAAEAAABGACAAAAANAAIAAABHAB8AAAAOAAEAAABHACAAAAAOAAIAAABGAB0AAAANAAEAAABGAB4AAAANAAIAAABHAB0AAAAOAAEAAABHAB4AAAAOAAIAAABGABsAAAANAAEAAABGABwAAAANAAIAAABHABsAAAAOAAEAAABHABwAAAAOAAIAAABGABkAAAANAAEAAABGABoAAAANAAIAAABHABkAAAAOAAEAAABHABoAAAAOAAIAAABGABcAAAANAAEAAABGABgAAAANAAIAAABHABcAAAAOAAEAAABHABgAAAAOAAIAAABGABUAAAANAAEAAABGABYAAAANAAIAAABHABUAAAAOAAEAAABHABYAAAAOAAIAAABEABUAAAANAAEAAABEABYAAAANAAIAAABFABUAAAAOAAEAAABFABYAAAAOAAIAAABEABMAAAANAAEAAABEABQAAAANAAIAAABFABMAAAAOAAEAAABFABQAAAAOAAIAAABEABEAAAANAAEAAABEABIAAAANAAIAAABFABEAAAAOAAEAAABFABIAAAAOAAIAAABEAA8AAAANAAEAAABEABAAAAANAAIAAABFAA8AAAAOAAEAAABFABAAAAAOAAIAAABGAA8AAAANAAEAAABGABAAAAANAAIAAABHAA8AAAAOAAEAAABHABAAAAAOAAIAAABGAA0AAAANAAEAAABGAA4AAAANAAIAAABHAA0AAAAOAAEAAABHAA4AAAAOAAIAAABGABEAAAANAAEAAABGABIAAAANAAIAAABHABEAAAAOAAEAAABHABIAAAAOAAIAAABGABMAAAANAAEAAABGABQAAAANAAIAAABHABMAAAAOAAEAAABHABQAAAAOAAIAAABEAB8AAAANAAEAAABEACAAAAANAAIAAABFAB8AAAAOAAEAAABFACAAAAAOAAIAAABEAB0AAAANAAEAAABEAB4AAAANAAIAAABFAB0AAAAOAAEAAABFAB4AAAAOAAIAAABEABsAAAANAAEAAABEABwAAAANAAIAAABFABsAAAAOAAEAAABFABwAAAAOAAIAAABEABkAAAANAAEAAABEABoAAAANAAIAAABFABkAAAAOAAEAAABFABoAAAAOAAIAAABEABcAAAANAAEAAABEABgAAAANAAIAAABFABcAAAAOAAEAAABFABgAAAAOAAIAAABEAA0AAAANAAEAAABEAA4AAAANAAIAAABFAA0AAAAOAAEAAABFAA4AAAAOAAIAAABGAAsAAAANAAEAAABGAAwAAAANAAIAAABHAAsAAAAOAAEAAABHAAwAAAAOAAIAAABGAAkAAAANAAEAAABGAAoAAAANAAIAAABHAAkAAAAOAAEAAABHAAoAAAAOAAIAAABGAAcAAAANAAEAAABGAAgAAAANAAIAAABHAAcAAAAOAAEAAABHAAgAAAAOAAIAAABGAAUAAAANAAEAAABGAAYAAAANAAIAAABHAAUAAAAOAAEAAABHAAYAAAAOAAIAAABGAAMAAAANAAEAAABGAAQAAAANAAIAAABHAAMAAAAOAAEAAABHAAQAAAAOAAIAAABEAAsAAAANAAEAAABEAAwAAAANAAIAAABFAAsAAAAOAAEAAABFAAwAAAAOAAIAAABEAAkAAAANAAEAAABEAAoAAAANAAIAAABFAAkAAAAOAAEAAABFAAoAAAAOAAIAAABEAAcAAAANAAEAAABEAAgAAAANAAIAAABFAAcAAAAOAAEAAABFAAgAAAAOAAIAAABEAAUAAAANAAEAAABEAAYAAAANAAIAAABFAAUAAAAOAAEAAABFAAYAAAAOAAIAAABEAAMAAAANAAEAAABEAAQAAAANAAIAAABFAAMAAAAOAAEAAABFAAQAAAAOAAIAAABEAAEAAAANAAEAAABEAAIAAAANAAIAAABFAAEAAAAOAAEAAABFAAIAAAAOAAIAAABGAAEAAAANAAEAAABGAAIAAAANAAIAAABHAAEAAAAOAAEAAABHAAIAAAAOAAIAAABBACAAAAAGAAIAAABCACAAAAAHAAIAAABDACAAAAAIAAIAAAA+ACAAAAAGAAIAAAA/ACAAAAAHAAIAAABAACAAAAAIAAIAAAA+AB8AAAAGAAIAAAA/AB8AAAAHAAIAAABAAB8AAAAIAAIAAAA+AB4AAAAGAAIAAAA/AB4AAAAHAAIAAABAAB4AAAAIAAIAAAA+AB0AAAAGAAIAAAA/AB0AAAAHAAIAAABAAB0AAAAIAAIAAAA+ABwAAAAGAAIAAAA/ABwAAAAHAAIAAABAABwAAAAIAAIAAAA+ABsAAAAGAAIAAAA/ABsAAAAHAAIAAABAABsAAAAIAAIAAAA+ABoAAAAGAAIAAAA/ABoAAAAHAAIAAABAABoAAAAIAAIAAAA+ABkAAAAGAAIAAAA/ABkAAAAHAAIAAABAABkAAAAIAAIAAAA+ABgAAAAGAAIAAAA/ABgAAAAHAAIAAABAABgAAAAIAAIAAAA+ABcAAAAGAAIAAAA/ABcAAAAHAAIAAABAABcAAAAIAAIAAAA+ABYAAAAGAAIAAAA/ABYAAAAHAAIAAABAABYAAAAIAAIAAAA+ABUAAAAGAAIAAAA/ABUAAAAHAAIAAABAABUAAAAIAAIAAAA+ABQAAAAGAAIAAAA/ABQAAAAHAAIAAABAABQAAAAIAAIAAAA+ABMAAAAGAAIAAAA/ABMAAAAHAAIAAABAABMAAAAIAAIAAAA+ABIAAAAGAAIAAAA/ABIAAAAHAAIAAABAABIAAAAIAAIAAAA+ABEAAAAGAAIAAAA/ABEAAAAHAAIAAABAABEAAAAIAAIAAAA+ABAAAAAGAAIAAAA/ABAAAAAHAAIAAABAABAAAAAIAAIAAAA+AA8AAAAGAAIAAAA/AA8AAAAHAAIAAABAAA8AAAAIAAIAAAA+AA4AAAAGAAIAAAA/AA4AAAAHAAIAAABAAA4AAAAIAAIAAAA+AA0AAAAGAAIAAAA/AA0AAAAHAAIAAABAAA0AAAAIAAIAAAA+AAwAAAAGAAIAAAA/AAwAAAAHAAIAAABAAAwAAAAIAAIAAAA+AAsAAAAGAAIAAAA/AAsAAAAHAAIAAABAAAsAAAAIAAIAAAA+AAoAAAAGAAIAAAA/AAoAAAAHAAIAAABAAAoAAAAIAAIAAAA+AAkAAAAGAAIAAAA/AAkAAAAHAAIAAABAAAkAAAAIAAIAAAA+AAgAAAAGAAIAAAA/AAgAAAAHAAIAAABAAAgAAAAIAAIAAAA+AAcAAAAGAAIAAAA/AAcAAAAHAAIAAABAAAcAAAAIAAIAAAA+AAYAAAAGAAIAAAA/AAYAAAAHAAIAAABAAAYAAAAIAAIAAAA+AAUAAAAGAAIAAAA/AAUAAAAHAAIAAABAAAUAAAAIAAIAAAA+AAQAAAAGAAIAAAA/AAQAAAAHAAIAAABAAAQAAAAIAAIAAABBAB8AAAAGAAIAAABCAB8AAAAHAAIAAABDAB8AAAAIAAIAAABBAB4AAAAGAAIAAABCAB4AAAAHAAIAAABDAB4AAAAIAAIAAABBAB0AAAAGAAIAAABCAB0AAAAHAAIAAABDAB0AAAAIAAIAAABBABwAAAAGAAIAAABCABwAAAAHAAIAAABDABwAAAAIAAIAAABBABsAAAAGAAIAAABCABsAAAAHAAIAAABDABsAAAAIAAIAAABBABoAAAAGAAIAAABCABoAAAAHAAIAAABDABoAAAAIAAIAAABBABkAAAAGAAIAAABCABkAAAAHAAIAAABDABkAAAAIAAIAAABBABgAAAAGAAIAAABCABgAAAAHAAIAAABDABgAAAAIAAIAAABBABcAAAAGAAIAAABCABcAAAAHAAIAAABDABcAAAAIAAIAAABBABYAAAAGAAIAAABCABYAAAAHAAIAAABDABYAAAAIAAIAAABBABUAAAAGAAIAAABCABUAAAAHAAIAAABDABUAAAAIAAIAAABBABQAAAAGAAIAAABCABQAAAAHAAIAAABDABQAAAAIAAIAAABBABMAAAAGAAIAAABCABMAAAAHAAIAAABDABMAAAAIAAIAAABBABIAAAAGAAIAAABCABIAAAAHAAIAAABDABIAAAAIAAIAAABBABEAAAAGAAIAAABCABEAAAAHAAIAAABDABEAAAAIAAIAAABBABAAAAAGAAIAAABCABAAAAAHAAIAAABDABAAAAAIAAIAAABBAA8AAAAGAAIAAABCAA8AAAAHAAIAAABDAA8AAAAIAAIAAABBAA4AAAAGAAIAAABCAA4AAAAHAAIAAABDAA4AAAAIAAIAAABBAA0AAAAGAAIAAABCAA0AAAAHAAIAAABDAA0AAAAIAAIAAABBAAwAAAAGAAIAAABCAAwAAAAHAAIAAABDAAwAAAAIAAIAAABBAAsAAAAGAAIAAABCAAsAAAAHAAIAAABDAAsAAAAIAAIAAABBAAoAAAAGAAIAAABCAAoAAAAHAAIAAABDAAoAAAAIAAIAAABBAAkAAAAGAAIAAABCAAkAAAAHAAIAAABDAAkAAAAIAAIAAABBAAgAAAAGAAIAAABCAAgAAAAHAAIAAABDAAgAAAAIAAIAAABBAAcAAAAGAAIAAABCAAcAAAAHAAIAAABDAAcAAAAIAAIAAABBAAYAAAAGAAIAAABCAAYAAAAHAAIAAABDAAYAAAAIAAIAAABBAAUAAAAGAAIAAABCAAUAAAAHAAIAAABDAAUAAAAIAAIAAABBAAQAAAAGAAIAAABCAAQAAAAHAAIAAABDAAQAAAAIAAIAAABBAAMAAAAGAAIAAABCAAMAAAAHAAIAAABDAAMAAAAIAAIAAABBAAIAAAAGAAIAAABCAAIAAAAHAAIAAABDAAIAAAAIAAIAAAA+AAMAAAAGAAIAAAA/AAMAAAAHAAIAAABAAAMAAAAIAAIAAAA+AAIAAAAGAAIAAAA/AAIAAAAHAAIAAABAAAIAAAAIAAIAAAA+AAEAAAAGAAAAAAA/AAEAAAAHAAAAAABAAAEAAAAIAAAAAABBAAEAAAAGAAAAAABCAAEAAAAHAAAAAABDAAEAAAAIAAAAAAAYABYAAAARAAQAAAAYABcAAAARAAUAAAAYABgAAAARAAYAAAAZABYAAAASAAQAAAAZABcAAAASAAUAAAAZABgAAAASAAYAAAAaABYAAAATAAQAAAAaABcAAAATAAUAAAAaABgAAAATAAYAAAAbABYAAAARAAQAAAAbABcAAAARAAUAAAAbABgAAAARAAYAAAAcABYAAAASAAQAAAAcABcAAAASAAUAAAAcABgAAAASAAYAAAAdABYAAAATAAQAAAAdABcAAAATAAUAAAAdABgAAAATAAYAAAAeABYAAAARAAQAAAAeABcAAAARAAUAAAAeABgAAAARAAYAAAAfABYAAAASAAQAAAAfABcAAAASAAUAAAAfABgAAAASAAYAAAAgABYAAAATAAQAAAAgABcAAAATAAUAAAAgABgAAAATAAYAAAAnAA8AAAARAAQAAAAnABAAAAARAAUAAAAnABEAAAARAAYAAAAoAA8AAAASAAQAAAAoABAAAAASAAUAAAAoABEAAAASAAYAAAApAA8AAAATAAQAAAApABAAAAATAAUAAAApABEAAAATAAYAAAAqAA8AAAARAAQAAAAqABAAAAARAAUAAAAqABEAAAARAAYAAAArAA8AAAASAAQAAAArABAAAAASAAUAAAArABEAAAASAAYAAAAsAA8AAAATAAQAAAAsABAAAAATAAUAAAAsABEAAAATAAYAAAAtAA8AAAARAAQAAAAtABAAAAARAAUAAAAtABEAAAARAAYAAAAuAA8AAAASAAQAAAAuABAAAAASAAUAAAAuABEAAAASAAYAAAAvAA8AAAATAAQAAAAvABAAAAATAAUAAAAvABEAAAATAAYAAAAwAA8AAAARAAQAAAAwABAAAAARAAUAAAAwABEAAAARAAYAAAAxAA8AAAASAAQAAAAxABAAAAASAAUAAAAxABEAAAASAAYAAAAyAA8AAAATAAQAAAAyABAAAAATAAUAAAAyABEAAAATAAYAAAANABsAAAARAAUAAAANABwAAAARAAYAAAAOABsAAAASAAUAAAAOABwAAAASAAYAAAAPABsAAAATAAUAAAAPABwAAAATAAYAAAAQABsAAAARAAUAAAAQABwAAAARAAYAAAARABsAAAASAAUAAAARABwAAAASAAYAAAASABsAAAATAAUAAAASABwAAAATAAYAAAATABgAAAARAAUAAAATABkAAAARAAYAAAAUABgAAAASAAUAAAAUABkAAAASAAYAAAAVABgAAAATAAUAAAAVABkAAAATAAYAAAAKABMAAAARAAUAAAAKABQAAAARAAYAAAALABMAAAASAAUAAAALABQAAAASAAYAAAAMABMAAAATAAUAAAAMABQAAAATAAYAAAANABMAAAARAAUAAAANABQAAAARAAYAAAAOABMAAAASAAUAAAAOABQAAAASAAYAAAAPABMAAAATAAUAAAAPABQAAAATAAYAAAA0AAoAAAARAAUAAAA0AAsAAAARAAYAAAA1AAoAAAASAAUAAAA1AAsAAAASAAYAAAA2AAoAAAATAAUAAAA2AAsAAAATAAYAAAA3AAoAAAARAAUAAAA3AAsAAAARAAYAAAA4AAoAAAASAAUAAAA4AAsAAAASAAYAAAA5AAoAAAATAAUAAAA5AAsAAAATAAYAAAA3AAgAAAARAAUAAAA3AAkAAAARAAYAAAA4AAgAAAASAAUAAAA4AAkAAAASAAYAAAA5AAgAAAATAAUAAAA5AAkAAAATAAYAAAA7AAQAAAARAAUAAAA7AAUAAAARAAYAAAA8AAQAAAASAAUAAAA8AAUAAAASAAYAAAA9AAQAAAATAAUAAAA9AAUAAAATAAYAAAA=")
+tile_set = SubResource("TileSet_qwsg1")
