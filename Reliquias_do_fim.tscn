@@ -4777,7 +4777,6 @@ func _process(delta: float) -> void:
 	#offset = (offset_pistola).rotated(rotation)
 	rotation = seta.rotation
 	if Input.is_action_just_pressed(\"J01_atirar\"):
-		print(\"atirou\")
 		carregando_forca = true
 		seta.set_aiming_active(true)
 		forca = 0.0
@@ -4818,43 +4817,8 @@ func soltar_arma():
 	texture = null
 	visible = false
 	arma_atual = null
-	print(\"Arma solta\")
 
-#func atualizar_posicao():
-	#var direcao = 0
-	#if personagem.velocity.x < 0:
-		#direcao = -1
-	#elif personagem.velocity.x > 0:
-		#direcao = 1
-	#else:
-		#direcao = ultima_direcao
-	#
-	#ultima_direcao = direcao
-	
-	#abaixo, atualiza a posição do gauge para nao inverter junto da arma e se manter emabixo personagem
-	#obs: como anim_gauge é um no filho de arma, ela inverte junto com o no pai, por isso tem que ajustar
-	#if flip_h:
-		#anim_gauge.position.x = 20  # o oposto de -20
-	#else:
-		#anim_gauge.position.x = -20
-	
-	
-	# Ajuste do flip e do offset com base na arma atual
-	#match arma_atual:
-		#\"pistola\":
-			#arma_offset.x = 30 * direcao
-		#\"kar\":
-			#arma_offset.x = 20 * direcao
-		#\"awm\":
-			#arma_offset.x = 20 * direcao
-		#_:
-			#arma_offset.x = 20 * direcao  # Padrão
-#
-	#flip_h = direcao == -1
-	#arma_offset.y = 15
-	#position.x += 100
-	#global_position = personagem.global_position + arma_offset
-	#offset+= Vector2(100, 0)
+
 
 	
 	
@@ -4862,7 +4826,6 @@ func disparar():
 	if arma_atual == null:
 		return
 	carregando_forca = false
-	print(\"Forca final: \", forca)
 	var novo_projetil = ProjetilScene.instantiate()
 	var direcao_mira = seta.get_aim_direction_vector()
 	novo_projetil.direction = direcao_mira
@@ -4871,7 +4834,6 @@ func disparar():
 	
 	novo_projetil.forca = forca
 	get_tree().current_scene.add_child(novo_projetil)
-	print(novo_projetil.position.x)
 
 			
 		

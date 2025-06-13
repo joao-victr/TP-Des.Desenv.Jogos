@@ -5,7 +5,7 @@
 [sub_resource type="GDScript" id="GDScript_rivwi"]
 script/source = "extends RigidBody2D
 
-@export var raio: float = 1  # raio de destruição em tiles ao redor
+@export var raio: float = 2  # raio de destruição em tiles ao redor
 @export var direction: Vector2 = Vector2(1, 0)
 @onready var explosao_scene = preload(\"res://explosion.tscn\")
 var forca: float = 0 #recebe a força da instancia do tiro em armas
@@ -14,23 +14,25 @@ var tilemap_node: TileMapLayer
 
 
 func _ready():
+	contact_monitor = true
+	max_contacts_reported = 2
 	linear_velocity = direction * forca
 	#apply_central_force(direction * forca )
 	var raiz = get_tree().current_scene
 	if raiz.has_node(\"Tiles_e_reliquias/Tile_tech_layer_physic\"):
 		tilemap_node = raiz.get_node(\"Tiles_e_reliquias/Tile_tech_layer_physic\")
+	body_entered.connect(_on_body_entered)
 
 func _physics_process(delta):
+	pass
 	
-	var cell_pos: Vector2i = tilemap_node.local_to_map(global_position)
-	if tilemap_node.get_cell_source_id(cell_pos) != -1:
-		destruir_em_raio(cell_pos)
-		var explosao = explosao_scene.instantiate()
-		explosao.global_position = global_position
-		get_tree().current_scene.add_child(explosao)
-		print(\"posicao explosao:\", explosao.global_position)
-		print(\"posição do centro do tile\", cell_pos)
-		queue_free()
+	#var cell_pos: Vector2i = tilemap_node.local_to_map(global_position)
+	#if tilemap_node.get_cell_source_id(cell_pos) != -1:
+		#destruir_em_raio(cell_pos)
+		#var explosao = explosao_scene.instantiate()
+		#explosao.global_position = global_position
+		#get_tree().current_scene.add_child(explosao)
+		#queue_free()
 
 func destruir_em_raio(center_pos: Vector2i):
 	for x_offset in range(-raio, raio + 1):
@@ -40,6 +42,16 @@ func destruir_em_raio(center_pos: Vector2i):
 				var pos = center_pos + Vector2i(x_offset, y_offset)
 				if tilemap_node.get_cell_source_id(pos) != -1:
 					tilemap_node.set_cell(pos, -1)
+
+
+func _on_body_entered(body: Node) -> void:
+	print(\"Entrou\")
+	var cell_pos: Vector2i = tilemap_node.local_to_map(global_position)
+	destruir_em_raio(cell_pos)
+	var explosao = explosao_scene.instantiate()
+	explosao.global_position = global_position		
+	get_tree().current_scene.add_child(explosao)
+	queue_free()
 "
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gp2hl"]
@@ -57,3 +69,5 @@ texture = ExtResource("1_rivwi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_gp2hl")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
