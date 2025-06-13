@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bqklqfvcqq1ho"]
 
-[ext_resource type="Texture2D" uid="uid://bvvotdedupy2n" path="res://tiro.png" id="1_rivwi"]
+[ext_resource type="Texture2D" uid="uid://vqp6cj6sbnoy" path="res://tiro.png" id="1_rivwi"]
 
 [sub_resource type="GDScript" id="GDScript_rivwi"]
 script/source = "extends RigidBody2D
@@ -17,8 +17,8 @@ func _ready():
 	linear_velocity = direction * forca
 	#apply_central_force(direction * forca )
 	var raiz = get_tree().current_scene
-	if raiz.has_node(\"Tiles_e_reliquias/Tile_tech\"):
-		tilemap_node = raiz.get_node(\"Tiles_e_reliquias/Tile_tech\")
+	if raiz.has_node(\"Tiles_e_reliquias/Tile_tech_layer_physic\"):
+		tilemap_node = raiz.get_node(\"Tiles_e_reliquias/Tile_tech_layer_physic\")
 
 func _physics_process(delta):
 	
