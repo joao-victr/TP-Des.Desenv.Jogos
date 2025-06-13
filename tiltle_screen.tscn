@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://b1db4f316gxxn"]
+[gd_scene load_steps=9 format=3 uid="uid://b1db4f316gxxn"]
 
 [ext_resource type="Script" uid="uid://cfcr23e78trbd" path="res://tiltle_screen.gd" id="1_sollk"]
 [ext_resource type="Texture2D" uid="uid://bwa87jtjwrvk3" path="res://Title_Screen/logo_ATT_2.png" id="2_sollk"]
 [ext_resource type="Texture2D" uid="uid://dbweodxj5d4oe" path="res://Title_Screen/LOGO_ATT.png" id="3_sollk"]
 [ext_resource type="Theme" uid="uid://7bv0eq8f74tq" path="res://tema_botoes.tres" id="4_f1jmw"]
+[ext_resource type="AudioStream" uid="uid://dur3gqo88bhet" path="res://Musics/Title_screen_FF.mp3" id="5_f1jmw"]
 
 [sub_resource type="Animation" id="Animation_sollk"]
 resource_name = "reveal"
@@ -135,6 +136,12 @@ libraries = {
 &"": SubResource("AnimationLibrary_bhnet")
 }
 autoplay = "reveal"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_f1jmw")
+volume_db = 2.971
+autoplay = true
+parameters/looping = false
 
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/Start_Btn" to="." method="_on_start_btn_pressed"]
 [connection signal="pressed" from="MarginContainer/HBoxContainer/VBoxContainer/Credits_Btn2" to="." method="_on_credits_btn_2_pressed"]

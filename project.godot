@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Reliquias_do_fim"
-run/main_scene="res://Reliquias_do_fim.tscn"
+run/main_scene="uid://b1db4f316gxxn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
