@@ -15,6 +15,11 @@ run/main_scene="res://Reliquias_do_fim.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=1154
+window/size/viewport_height=640
+
 [input]
 
 ui_accept={
