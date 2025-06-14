@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://csr17d67s3n1v"]
+
+[ext_resource type="Texture2D" uid="uid://clv5u60jrsqg1" path="res://Title_Screen/introducao_bg.png" id="1_43oos"]
+[ext_resource type="Script" uid="uid://cy51nrvy6k6xv" path="res://introdução.gd" id="1_pylc1"]
+[ext_resource type="AudioStream" uid="uid://byf0m47sbugxh" path="res://Musics/Cinematic Tension NoCopyright Background Music for Video ⧸ Tensions Run High by soundridemusic.mp3" id="2_ulh35"]
+
+[sub_resource type="FontFile" id="FontFile_3m33k"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/2/0/ascent = 0.0
+cache/0/2/0/descent = 0.0
+cache/0/2/0/underline_position = 0.0
+cache/0/2/0/underline_thickness = 0.0
+cache/0/2/0/scale = 1.0
+cache/0/1/0/ascent = 0.0
+cache/0/1/0/descent = 0.0
+cache/0/1/0/underline_position = 0.0
+cache/0/1/0/underline_thickness = 0.0
+cache/0/1/0/scale = 1.0
+
+[sub_resource type="Animation" id="Animation_3m33k"]
+resource_name = "scroll"
+length = 30.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RichTextLabel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 30),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(267, 641), Vector2(267, -370)]
+}
+
+[sub_resource type="Animation" id="Animation_43oos"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("RichTextLabel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(267, 641)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ulh35"]
+_data = {
+&"RESET": SubResource("Animation_43oos"),
+&"scroll": SubResource("Animation_3m33k")
+}
+
+[node name="Introdução" type="Node2D"]
+script = ExtResource("1_pylc1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(577, 321)
+texture = ExtResource("1_43oos")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 267.0
+offset_top = 641.0
+offset_right = 913.0
+offset_bottom = 1642.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/normal_font = SubResource("FontFile_3m33k")
+bbcode_enabled = true
+text = "[center][b]Num futuro distante, onde o eco de uma Terra outrora vibrante ressoa apenas em fragmentos flutuantes...
+
+Avançou a humanidade, desvendando os segredos da matéria e da energia, erguendo impérios tecnológicos que desafiavam os próprios céus. Estes eram os Arquimantes, mestres da lógica fria e da invenção engenhosa, cuja ciência beirava a própria divindade.
+
+Mas nas profundezas ancestrais do planeta, onde a natureza pulsava com uma energia selvagem e indomável, floresceu outra civilização: os Druzak. Xamãs da floresta e da montanha, eles teciam os fios invisíveis da magia, comunicando-se com os espíritos da terra e dobrando as forças elementais à sua vontade.
+
+Por eras, coexistiram em um tênue equilíbrio, trilhando caminhos distintos de poder. Mas a ambição e a sede por conhecimento proibido acenderam a chama da discórdia. Uma Guerra Mágica-Científica irrompeu com fúria cataclísmica, devastando o planeta em um choque de tecnologia avançada e feitiçaria ancestral.
+
+O mundo como o conheciam foi despedaçado. Continentes inteiros ruíram, e da poeira e da destruição emergiram miríades de ilhas flutuantes, cada uma sustentada por energias instáveis e ventos etéreos.
+
+No coração de cada uma dessas ilhas reside uma Relíquia do Fim – artefatos de poder incalculável, vestígios das civilizações caídas. Para os Arquimantes, elas são a chave para amplificar tecnologias esquecidas, para os Druzak, a fonte de magias ancestrais adormecidas.
+
+Agora, séculos após o cataclismo, facções sobreviventes das duas linhagens contratam os Caçadores de Relíquias. Grupos de elite, destemidos e habilidosos, enviados para as ilhas perigosas com uma única missão: recuperar as Relíquias do Fim e, com elas, talvez, inclinar a balança do poder em favor de seus contratantes.
+
+Em cada confronto, duas equipes de Caçadores se encontram em uma nova ilha, prontas para a batalha. Munidos de armamentos ancestrais, engenhocas bizarras e habilidades lendárias, eles lutarão turno a turno, ajustando seus lançamentos com precisão mortal, até que apenas uma facção permaneça de pé.
+
+Prepare-se para o confronto. Escolha seu lado. A caça pelas Relíquias do Fim... começou.[/b]
+
+
+Pressione ENTER para começar
+[/center]"
+
+[node name="scrollText" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_ulh35")
+}
+autoplay = "scroll"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_ulh35")
+volume_db = 3.962
+autoplay = true
